@@ -1,18 +1,25 @@
 #include "main.h"
 /**
- * _isalpha - main function
+ * print_sign - main function
  *
- * @c: character to compare
+ * @n: character to compare
  *
- * Return: 1 if true, 0 if false
+ * Return: 1 if positive, 0 if zero, -1 if negative
  *
  */
 
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
 	}
-	return (0);
+	if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	_putchar('-');
+	return (-1);
 }
