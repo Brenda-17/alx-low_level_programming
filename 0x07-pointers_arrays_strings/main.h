@@ -1,6 +1,6 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
-[>77;30502;0c]10;rgb:bfbf/bfbf/bfbf]11;rgb:0000/0000/0000
+
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
