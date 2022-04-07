@@ -1,7 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
-
+#include "holberton.h"
 
 /**
  * is_digit - checks if a string contains a non-digit char
