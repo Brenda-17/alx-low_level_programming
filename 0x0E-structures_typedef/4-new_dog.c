@@ -68,6 +68,3 @@ int _strlen(char *s)
 
 	return (c);
 }
-
-/**
-
